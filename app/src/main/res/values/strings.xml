@@ -4,5 +4,5 @@
     <string name="dz2">ДЗ2</string>
     <string name="dz3">ДЗ3</string>
     <string name="url">Введите URL</string>
-    <string name="downloadImage">скачать картинку</string>
+    <string name="downloadPicture">скачать картинку</string>
 </resources>
