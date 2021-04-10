@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
+import android.widget.Toast
 import com.google.android.material.textfield.TextInputEditText
 import com.squareup.picasso.Picasso
 
@@ -17,7 +18,9 @@ class HomeWork1Activity : AppCompatActivity() {
         val btnImage = findViewById<Button>(R.id.button_image)
 
         btnImage.setOnClickListener{
-            Picasso.get()
+
+            if(url.text.toString().isEmpty()) Toast.makeText(this,"Поле пустое",Toast.LENGTH_LONG).show()
+            else Picasso.get()
                     .load(url.text.toString())
                     .into(image)
         }
