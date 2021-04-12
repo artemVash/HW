@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/candal</item>
+        <item>@font/cinzel_decorative_bold</item>
+        <item>@font/herr_von_muellerhoff</item>
+        <item>@font/im_fell_double_pica_sc</item>
+        <item>@font/mr_dafoe</item>
+        <item>@font/quattrocento_sans_bold_italic</item>
+    </array>
+</resources>
