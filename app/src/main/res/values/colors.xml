@@ -9,5 +9,15 @@
     <color name="white">#FFFFFFFF</color>
     <color name="grey">#757575</color>
     <color name="grey_60">#60757575</color>
-    <color name="trans">#0000000</color>
+    <color name="trans">#00000000</color>
+    <color name="armenia_red">#DA0311</color>
+    <color name="armenia_blue">#0032A0</color>
+    <color name="armenia_orange">#F2A800</color>
+    <color name="austria_red">#ED2938</color>
+    <color name="belgium_yellow">#FAE041</color>
+    <color name="belgium_red">#ED2938</color>
+    <color name="latvia_red">#9E2F38</color>
+    <color name="denmark_red">#C70930</color>
+    <color name="spain_red">#F70B09</color>
+    <color name="spain_yellow">#F7EF17</color>
 </resources>

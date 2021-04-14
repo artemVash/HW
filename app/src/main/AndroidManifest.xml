@@ -11,7 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Lesson1HW">
-        <activity android:name=".HomeWork1Activity"></activity>
+        <activity android:name="HW2.AnimationActivity"></activity>
+        <activity android:name="HW2.FlagActivity" />
+        <activity android:name=".HomeWork2Activity" />
+        <activity android:name=".HomeWork1Activity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,6 +22,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
