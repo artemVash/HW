@@ -1,223 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/dz1"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_marginTop="25dp"
+        android:text="@string/dz1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/im_fell_double_pica_sc"
-            android:gravity="center"
-            android:text="@string/my_home_work"
-            android:textSize="35sp" />
+    <Button
+        android:id="@+id/dz2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/dz2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dz1" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/mr_dafoe"
-            android:gravity="center"
-            android:text="@string/by_artsiom_vashkevich" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_margin="10dp">
-
-            <TextView
-                android:id="@+id/tv_dz1"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="@string/dz1"
-                android:layout_marginEnd="10dp"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:background="@drawable/textview_button_background"/>
-            <TextView
-                android:id="@+id/tv_dz2"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="@string/dz2"
-                android:layout_marginEnd="10dp"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:background="@drawable/textview_button_background"/>
-            <TextView
-                android:id="@+id/tv_dz3"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="@string/dz3"
-                android:layout_marginEnd="10dp"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:background="@drawable/textview_button_background"/>
-            <TextView
-                android:id="@+id/tv_dz4"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="@string/dz4"
-                android:layout_marginEnd="10dp"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:background="@drawable/textview_button_background"/>
-            <TextView
-                android:id="@+id/tv_dz5"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="@string/dz5"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:background="@drawable/textview_button_background"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_margin="10dp">
-
-            <TextView
-                android:id="@+id/tv_dz6"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="@string/dz6"
-                android:layout_marginEnd="10dp"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:background="@drawable/textview_button_background"/>
-            <TextView
-                android:id="@+id/tv_dz7"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="@string/dz7"
-                android:layout_marginEnd="10dp"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:background="@drawable/textview_button_background"/>
-            <TextView
-                android:id="@+id/tv_dz8"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="@string/dz8"
-                android:layout_marginEnd="10dp"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:background="@drawable/textview_button_background"/>
-            <TextView
-                android:id="@+id/tv_dz9"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="@string/dz9"
-                android:layout_marginEnd="10dp"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:background="@drawable/textview_button_background"/>
-            <TextView
-                android:id="@+id/tv_dz10"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="@string/dz10"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:background="@drawable/textview_button_background"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_margin="10dp">
-
-            <TextView
-                android:id="@+id/tv_dz11"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="@string/dz11"
-                android:layout_marginEnd="10dp"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:background="@drawable/textview_button_background"/>
-            <TextView
-                android:id="@+id/tv_dz12"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="@string/dz12"
-                android:layout_marginEnd="10dp"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:background="@drawable/textview_button_background"/>
-            <TextView
-                android:id="@+id/tv_dz13"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="@string/dz13"
-                android:layout_marginEnd="10dp"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:background="@drawable/textview_button_background"/>
-            <TextView
-                android:id="@+id/tv_dz14"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="@string/dz14"
-                android:layout_marginEnd="10dp"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:background="@drawable/textview_button_background"/>
-            <TextView
-                android:id="@+id/tv_dz15"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="@string/dz15"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:background="@drawable/textview_button_background"/>
-
-        </LinearLayout>
-    </LinearLayout>
+    <Button
+        android:id="@+id/dz3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/dz3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dz2" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
