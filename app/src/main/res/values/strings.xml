@@ -1,6 +1,20 @@
 <resources>
     <string name="app_name">lesson№1HW</string>
-    <string name="dz1">ДЗ1</string>
-    <string name="dz2">ДЗ2</string>
-    <string name="dz3">ДЗ3</string>
+    <string name="dz1">1</string>
+    <string name="dz2">2</string>
+    <string name="dz3">3</string>
+    <string name="dz4">4</string>
+    <string name="dz5">5</string>
+    <string name="dz6">6</string>
+    <string name="dz7">7</string>
+    <string name="dz8">8</string>
+    <string name="dz9">9</string>
+    <string name="dz10">10</string>
+    <string name="dz11">11</string>
+    <string name="dz12">12</string>
+    <string name="dz13">13</string>
+    <string name="dz14">14</string>
+    <string name="dz15">15</string>
+    <string name="my_home_work">MY HOME WORK</string>
+    <string name="by_artsiom_vashkevich">by Artsiom Vashkevich</string>
 </resources>
