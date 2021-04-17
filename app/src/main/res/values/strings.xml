@@ -17,4 +17,9 @@
     <string name="dz15">15</string>
     <string name="my_home_work">MY HOME WORK</string>
     <string name="by_artsiom_vashkevich">by Artsiom Vashkevich</string>
+    <string name="url">Введите URL</string>
+    <string name="downloadPicture">Скачать</string>
+    <string name="btn_flag">Flag</string>
+    <string name="btn_animation">Animation</string>
+    <string name="animation_back">Back</string>
 </resources>

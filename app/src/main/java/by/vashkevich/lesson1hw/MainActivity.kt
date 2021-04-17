@@ -17,5 +17,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,HomeWork1Activity::class.java)
             startActivity(intent)
         }
+
+        buttonTextView2.setOnClickListener {
+            val intent = Intent(this,HomeWork2Activity::class.java)
+            startActivity(intent)
+        }
     }
 }
