@@ -13,6 +13,7 @@
         android:theme="@style/Theme.Lesson1HW">
         <activity android:name="HW2.AnimationActivity"></activity>
         <activity android:name="HW2.FlagActivity" />
+        <activity android:name=".HomeWork3Activity" />
         <activity android:name=".HomeWork2Activity" />
         <activity android:name=".HomeWork1Activity" />
         <activity android:name=".MainActivity">
