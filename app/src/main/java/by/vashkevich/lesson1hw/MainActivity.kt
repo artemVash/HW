@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
         val buttonTextView1 = findViewById<TextView>(R.id.tv_dz1)
         val buttonTextView2 = findViewById<TextView>(R.id.tv_dz2)
         val buttonTextView3 = findViewById<TextView>(R.id.tv_dz3)
+        val buttonTextView5 = findViewById<TextView>(R.id.tv_dz5)
 
         buttonTextView1.setOnClickListener {
             val intent = Intent(this,HomeWork1Activity::class.java)
@@ -26,6 +27,11 @@ class MainActivity : AppCompatActivity() {
 
         buttonTextView3.setOnClickListener {
             val intent = Intent(this,HomeWork3Activity::class.java)
+            startActivity(intent)
+        }
+
+        buttonTextView5.setOnClickListener {
+            val intent = Intent(this,HomeWork5Activity::class.java)
             startActivity(intent)
         }
     }
