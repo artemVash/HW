@@ -11,8 +11,4 @@ class HomeWork4ViewModel:ViewModel() {
     fun addList(list:ArrayList<SnowDrop>){
         listM.value = list
     }
-
-   fun restart() {
-    //listM = MutableLiveData<ArrayList<SnowDrop>>()
-   }
 }

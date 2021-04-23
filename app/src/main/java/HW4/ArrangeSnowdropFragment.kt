@@ -87,7 +87,6 @@ class ArrangeSnowdropFragment : Fragment() {
                 ) {
                     Toast.makeText(context, "Заполните все поля", Toast.LENGTH_LONG).show()
                 } else {
-                    viewModel.restart()
 
                     val checked: String = if (checkBox.isChecked) "Упаковывать"
                     else "Нe упаковывать"
