@@ -32,6 +32,16 @@
     <string name="potato">Картофель</string>
     <string name="cabbage">Капуста</string>
     <string name="beet">Свекла</string>
+
+    <string name="welcome">"Добро пожаловать "</string>
+    <string name="title">Ругистрация завершена</string>
+    <string name="ok">ок</string>
+    <string name="sing_in">войти</string>
+    <string name="register_text">Регистрация</string>
+    <string name="input_name_user">Введите имя пользователя</string>
+    <string name="input_password">Введите пароль</string>
+    <string name="register_user">зарегистрировать</string>
+
     <string name="name_buyer">Введите имя</string>
     <string name="kind_of_flower">Выберите вид</string>
     <string name="quantity">Введите колическо</string>
@@ -51,4 +61,5 @@
     <string name="register_text">Регистрация</string>
     <string name="register_user">Зарегистрировать</string>
     <string name="welcome">Добро пожаловать</string>
+
 </resources>
