@@ -42,4 +42,13 @@
     <string name="quantity_info">Количество:</string>
     <string name="packaging">Упаковка:</string>
     <string name="price">Цена:</string>
+
+    <string name="title">Регистрация завершена</string>
+    <string name="ok">ok</string>
+    <string name="sing_in">Войти</string>
+    <string name="input_password">Введите пароль</string>
+    <string name="input_name_user">Введите имя пользователя</string>
+    <string name="register_text">Регистрация</string>
+    <string name="register_user">Зарегистрировать</string>
+    <string name="welcome">Добро пожаловать</string>
 </resources>
