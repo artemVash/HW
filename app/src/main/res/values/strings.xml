@@ -42,6 +42,7 @@
     <string name="quantity_info">Количество:</string>
     <string name="packaging">Упаковка:</string>
     <string name="price">Цена:</string>
+
     <string name="title">Регистрация завершена</string>
     <string name="ok">ok</string>
     <string name="sing_in">Войти</string>

@@ -104,4 +104,5 @@ class HomeWork3ViewModel : ViewModel() {
 
         regionControl.value = 0
     }
+
 }
