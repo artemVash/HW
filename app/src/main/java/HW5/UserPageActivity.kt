@@ -1,8 +1,14 @@
+
+
 package HW5
 
+import android.app.Activity
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
+import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProvider
+
 import by.vashkevich.lesson1hw.R
 
 const val TAG = "get name"
