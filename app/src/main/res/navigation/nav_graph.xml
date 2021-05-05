@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_grad"
+    app:startDestination="@id/allPostcardsFragment"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <fragment
+        android:id="@+id/allPostcardsFragment"
+        android:name="by.vashkevich.lesson1hw.HW6.AllPostcardsFragment"
+        android:label="AllPostcardsFragment"
+        tools:layout="@layout/fragment_all_postcards">
+        <action
+            android:id="@+id/showFirstPostcardFragment"
+            app:destination="@id/firstPostcardFragment" />
+        <action
+            android:id="@+id/showSecondPostcardFragment"
+            app:destination="@id/secondPostcardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/firstPostcardFragment"
+        android:name="by.vashkevich.lesson1hw.HW6.FirstPostcardFragment"
+        android:label="FirstPostcardFragment"
+        tools:layout="@layout/fragment_first_postcard"/>
+    <fragment
+        android:id="@+id/secondPostcardFragment"
+        android:name="by.vashkevich.lesson1hw.HW6.SecondPostcardFragment"
+        android:label="SecondPostcardFragment"
+        tools:layout="@layout/fragment_second_postcard"/>
+</navigation>

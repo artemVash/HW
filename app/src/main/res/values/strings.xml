@@ -53,13 +53,12 @@
     <string name="packaging">Упаковка:</string>
     <string name="price">Цена:</string>
 
-    <string name="title">Регистрация завершена</string>
-    <string name="ok">ok</string>
-    <string name="sing_in">Войти</string>
-    <string name="input_password">Введите пароль</string>
-    <string name="input_name_user">Введите имя пользователя</string>
-    <string name="register_text">Регистрация</string>
-    <string name="register_user">Зарегистрировать</string>
-    <string name="welcome">Добро пожаловать</string>
+    <string name="text_first_fragment">С Днем Победы Великой сердечные поздравленья!
+Здоровья крепчайшего и отличного настроенья.
+Пусть ярко светит солнце всегда над головой.
+Пусть в жизни мирной будет стабильность и покой!
+Мы Вам желаем долгих лет и доброты,
+Счастья океан, душевности и теплоты.</string>
+    <string name="postcard">Открытки</string>
 
 </resources>
