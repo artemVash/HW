@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_all_postcard">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/postcard"
+        android:textSize="60sp"
+        android:gravity="center"
+        android:textColor="@color/orange"
+        android:fontFamily="@font/arbor"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <LinearLayout
+            android:id="@+id/tank_layout"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/gd_tank"
+            app:layout_constraintTop_toTopOf="parent"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/may_9"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/may_9"
+                android:transitionName="may"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/star_layout"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/tape"
+            app:layout_constraintTop_toBottomOf="@+id/tank_layout"
+            tools:layout_editor_absoluteX="16dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/star"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/star"
+                android:transitionName="star_tr"/>
+
+            <ImageView
+                android:id="@+id/victory"
+                android:layout_width="230dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/victory"
+                android:transitionName="victory_tr"/>
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:layout_width="225dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="110dp"
+        android:src="@drawable/tank"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
