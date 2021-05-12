@@ -13,8 +13,8 @@ import com.squareup.picasso.Picasso
 
 class MyAdapter(listArray:ArrayList<SnowDrop>,context: Context):RecyclerView.Adapter<MyAdapter.ViewHolder>() {
 
-    var listArrayR = listArray
-    var contextR = context
+    private var listArrayR = listArray
+    private  var contextR = context
 
     class ViewHolder(view: View):RecyclerView.ViewHolder(view){
 

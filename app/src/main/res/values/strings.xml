@@ -60,5 +60,11 @@
 Мы Вам желаем долгих лет и доброты,
 Счастья океан, душевности и теплоты.</string>
     <string name="postcard">Открытки</string>
+    
+    <string-array name="payment">
+        <item>visa</item>
+        <item>master card</item>
+        <item>maestro</item>
+    </string-array>
 
 </resources>

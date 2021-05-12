@@ -23,5 +23,7 @@
     <color name="spain_yellow">#F7EF17</color>
     <color name="region_true_green">#49C826</color>
     <color name="orange">#F18C21</color>
+    <color name="turquoise">#AAE6ED</color>
+    <color name="bg_credit_card">#F6F1C1</color>
 
 </resources>

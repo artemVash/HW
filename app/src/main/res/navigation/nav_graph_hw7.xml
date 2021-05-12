@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph_hw7"
+    app:startDestination="@id/addCreditCardFragment"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <fragment
+        android:id="@+id/addCreditCardFragment"
+        android:name="by.vashkevich.lesson1hw.HW7.AddCreditCardFragment"
+        android:label="AddCreditCardFragment"
+        tools:layout="@layout/fragment_add_credit_card">
+        <action
+            android:id="@+id/showInfoCreditCardFragment"
+            app:destination="@id/infoCreditCardFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoCreditCardFragment"
+        android:name="by.vashkevich.lesson1hw.HW7.InfoCreditCardFragment"
+        android:label="InfoCreditCardFragment"
+        tools:layout="@layout/fragment_info_credit_card"/>
+</navigation>
