@@ -32,15 +32,15 @@ class InfoCreditCardFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        val recCreditCart = view.findViewById<RecyclerView>(R.id.rec_info_credit_card)
+        val btnSearch = view.findViewById<ImageView>(R.id.image_search)
 
         val contain = resources.getStringArray(R.array.payment)
-
-        val recCreditCart = view.findViewById<RecyclerView>(R.id.rec_info_credit_card)
         val search = view.findViewById<AutoCompleteTextView>(R.id.autoCompleteTextView)
-        val btnSearch = view.findViewById<ImageView>(R.id.image_search)
         val arrayAdapter =
             ArrayAdapter<String>(view.context, android.R.layout.simple_list_item_1, contain)
         search.setAdapter(arrayAdapter)
+
         viewModel.getAll()
         recCreditCart.hasFixedSize()
 

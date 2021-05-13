@@ -11,7 +11,7 @@
         android:id="@+id/autoCompleteTextView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:hint="select a payment system"
+        android:hint="@string/select_a_payment_system"
         android:textSize="24sp"
         app:layout_constraintEnd_toStartOf="@+id/image_search"
         app:layout_constraintStart_toStartOf="parent"

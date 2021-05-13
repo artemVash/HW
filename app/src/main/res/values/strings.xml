@@ -60,7 +60,19 @@
 Мы Вам желаем долгих лет и доброты,
 Счастья океан, душевности и теплоты.</string>
     <string name="postcard">Открытки</string>
-    
+    <string name="add_credit_card">Add credit card</string>
+    <string name="card_number">Card number</string>
+    <string name="valid_n_thru">VALID
+                                THRU</string>
+    <string name="month">month</string>
+    <string name="slash">/</string>
+    <string name="year">year</string>
+    <string name="cardholder_name">Cardholder name</string>
+    <string name="cvv_cvc">cvv/cvc</string>
+    <string name="save">save</string>
+    <string name="all_credit_cards">all credit cards</string>
+    <string name="select_a_payment_system">select a payment system</string>
+
     <string-array name="payment">
         <item>visa</item>
         <item>master card</item>
