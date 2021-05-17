@@ -2,6 +2,7 @@ package HW4
 
 import android.app.LauncherActivity
 import android.content.Context
+import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup

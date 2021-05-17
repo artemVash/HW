@@ -25,5 +25,12 @@
     <color name="orange">#F18C21</color>
     <color name="turquoise">#AAE6ED</color>
     <color name="bg_credit_card">#F6F1C1</color>
+    <color name="bg_crypto_currency">#071233</color>
+    <color name="bg_item_crypto_currency">#99000000</color>
+
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#c873f4</color>
 
 </resources>

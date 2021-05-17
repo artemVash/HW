@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph_hw8"
+    app:startDestination="@id/cryptoCurrencyFragment3"
+    xmlns:tools="http://schemas.android.com/tools">
+    <fragment
+        android:id="@+id/cryptoCurrencyFragment3"
+        android:name="by.vashkevich.lesson1hw.HW8.fragment.CryptoCurrencyFragment"
+        android:label="CryptoCurrencyFragment"
+        tools:layout="@layout/fragment_crypto_currency"/>
+</navigation>

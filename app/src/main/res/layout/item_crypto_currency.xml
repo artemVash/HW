@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_crypto_currency"
+    android:layout_width="match_parent"
+    android:elevation="10dp"
+    android:layout_height="130dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:background="@drawable/bg_crypto_currency"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <TextView
+        android:id="@+id/image_crypto"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/image_crypto"
+        android:fontFamily="@font/im_fell_double_pica_sc"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name_crypto"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:textSize="20sp"
+        android:layout_marginEnd="16dp"
+        android:textColor="@color/white"
+        android:layout_marginStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/image_crypto"
+        app:layout_constraintTop_toTopOf="@+id/image_crypto" />
+
+    <TextView
+        android:id="@+id/price_crypto"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/percent_change_crypto"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="10dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/image_crypto"
+        app:layout_constraintTop_toBottomOf="@+id/name_crypto" />
+
+    <TextView
+        android:id="@+id/percent_change_crypto"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/image_crypto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/image_crypto" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
