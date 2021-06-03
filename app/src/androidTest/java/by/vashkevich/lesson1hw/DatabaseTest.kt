@@ -41,7 +41,8 @@ class DatabaseTest {
             cardHolder = "Artsiom",
             cardCVV = 555,
             paymentSystem = "visa",
-            image = R.drawable.visa
+            image = R.drawable.visa,
+            id = 1
         )
         runBlocking {
 
@@ -65,6 +66,7 @@ class DatabaseTest {
             cardCVV = 555,
             paymentSystem = "visa",
             image = R.drawable.visa,
+            id = 1
         )
 
         val creditCard2 = CreditCard(
@@ -74,7 +76,8 @@ class DatabaseTest {
             cardHolder = "Vasya",
             cardCVV = 656,
             paymentSystem = "master card",
-            image = R.drawable.maestro
+            image = R.drawable.maestro,
+            id = 2
         )
 
         runBlocking {
@@ -102,6 +105,7 @@ class DatabaseTest {
             cardCVV = 555,
             paymentSystem = "visa",
             image = R.drawable.visa,
+            id = 1
         )
 
         val creditCard2 = CreditCard(
@@ -111,7 +115,8 @@ class DatabaseTest {
             cardHolder = "Vasya",
             cardCVV = 656,
             paymentSystem = "master card",
-            image = R.drawable.master_card
+            image = R.drawable.master_card,
+            id = 2
         )
 
         val creditCard3 = CreditCard(
@@ -121,7 +126,8 @@ class DatabaseTest {
             cardHolder = "Petya",
             cardCVV = 333,
             paymentSystem = "maestro",
-            image = R.drawable.maestro
+            image = R.drawable.maestro,
+            id = 3
         )
 
         runBlocking {
@@ -150,6 +156,7 @@ class DatabaseTest {
             cardCVV = 555,
             paymentSystem = "visa",
             image = R.drawable.visa,
+            id = 1
         )
 
         val creditCard2 = CreditCard(
@@ -159,7 +166,8 @@ class DatabaseTest {
             cardHolder = "Vasya",
             cardCVV = 656,
             paymentSystem = "master card",
-            image = R.drawable.master_card
+            image = R.drawable.master_card,
+            id = 2
         )
 
         val creditCard3 = CreditCard(
@@ -169,7 +177,8 @@ class DatabaseTest {
             cardHolder = "Petya",
             cardCVV = 333,
             paymentSystem = "maestro",
-            image = R.drawable.maestro
+            image = R.drawable.maestro,
+            id = 3
         )
 
         runBlocking {
@@ -198,6 +207,7 @@ class DatabaseTest {
             cardCVV = 555,
             paymentSystem = "visa",
             image = R.drawable.visa,
+            id = 1
         )
 
         val creditCard2 = CreditCard(
@@ -207,7 +217,8 @@ class DatabaseTest {
             cardHolder = "Vasya",
             cardCVV = 656,
             paymentSystem = "master card",
-            image = R.drawable.master_card
+            image = R.drawable.master_card,
+            id = 2
         )
 
         val creditCard3 = CreditCard(
@@ -217,7 +228,8 @@ class DatabaseTest {
             cardHolder = "Petya",
             cardCVV = 333,
             paymentSystem = "maestro",
-            image = R.drawable.maestro
+            image = R.drawable.maestro,
+            id = 3
         )
 
         runBlocking {
