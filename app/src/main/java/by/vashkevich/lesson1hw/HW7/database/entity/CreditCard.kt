@@ -18,9 +18,11 @@ data class CreditCard(
     val cardCVV:Int,
     @ColumnInfo(name = "payment_system")
     val paymentSystem:String,
-    val image:Int
-) {
+    val image:Int,
     @PrimaryKey(autoGenerate = true)
-        var id:Int? = null
+    var id:Int? = null
+) {
+//    @PrimaryKey(autoGenerate = true)
+//        var id:Int? = null
 
 }
