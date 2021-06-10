@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         val buttonTextView7 = findViewById<TextView>(R.id.tv_dz7)
         val buttonTextView8 = findViewById<TextView>(R.id.tv_dz8)
         val buttonTextView9 = findViewById<TextView>(R.id.tv_dz9)
+        val buttonTextView10 = findViewById<TextView>(R.id.tv_dz10)
 
         buttonTextView1.setOnClickListener {
             val intent = Intent(this,HomeWork1Activity::class.java)
@@ -64,5 +65,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,HomeWork9Activity::class.java)
             startActivity(intent)
         }
+
+        buttonTextView10.setOnClickListener {
+            val intent = Intent(this,HomeWork11Activity::class.java)
+            startActivity(intent)
+        }
+
     }
 }
